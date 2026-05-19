@@ -10,7 +10,8 @@ Compiled from a 4PDA-AICP-rooted unit on 2026-05-19 for the purpose of seeding a
 | Underlying hardware | rebrand / OEM-relative of Lenovo A2010 family (A2010 / A2010-a / A5006) |
 | Screen size | **~5.0"** (measured diagonal 12.5 cm), confirms Fast 2 not A2010 (which is 4.5") |
 | SoC | MediaTek **MT6735M** (a.k.a. mt6735, mt6735m board variant) |
-| CPU | 4× ARM Cortex-A53, 32-bit userland (armeabi-v7a) |
+| CPU | 4× ARM Cortex-A53 — ARMv8, hardware 64-bit capable (stock runs armv7 userland — MTK BSP cost-cutting) |
+| pmOS target architecture | **aarch64** (decision: mainline `mt6735-mainline/linux` is aarch64; no point staying on legacy 32-bit) |
 | Kernel | Linux 3.10.65 (downstream MTK BSP) |
 | Android (stock) | 5.1.1 — **currently running 4PDA-AICP custom ROM** (cm_A2010 base) |
 | RAM | 1 GiB (959 808 KiB usable) |

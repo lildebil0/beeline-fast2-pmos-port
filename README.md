@@ -16,6 +16,7 @@ This repo contains only **sanitized hardware description** harvested from a unit
 | Mainline board support | **no** |
 | Bootloader | MediaTek (preloader → LK), no slots, GPT layout |
 | Hardware family | rebrand-relative of Lenovo A2010 / A2010-a / A5006 |
+| Target architecture | **aarch64** (Cortex-A53 is ARMv8; stock MTK BSP ran armv7 to cut Android-5 memory cost, but mainline mt6735-mainline/linux is aarch64) |
 | pmOS port status | **not started** — this repo is step 0 |
 
 ## Why this device
