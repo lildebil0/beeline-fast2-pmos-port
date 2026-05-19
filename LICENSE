@@ -1,0 +1,7 @@
+Sanitized documentation files (README.md, device_info.md) are released
+under CC0 1.0 Universal (Public Domain Dedication).
+
+DTS files under extracted_dts/ are derived from the device's running boot
+image (AICP/cm community ROM). Copyright belongs to original authors
+(MediaTek / Lenovo / AICP contributors). Reproduced here for
+hardware-description / interoperability purposes only, no warranty.
